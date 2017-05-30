@@ -1,0 +1,14 @@
+vlan 2     g1         192.168.0.15    54:7f:54:e3:0d:8c   dynamic         
+vlan 2     g1         192.168.0.16    54:7f:54:e4:ae:6a   dynamic         
+vlan 2     g1         192.168.0.17    54:e1:40:2f:65:20   dynamic         
+vlan 2     g1         192.168.0.18    54:e1:40:2f:63:28   dynamic         
+vlan 2     g1         192.168.0.19    54:7f:54:e4:af:5d   dynamic         
+vlan 2     g1         192.168.0.40    d8:50:e6:4c:24:c2   dynamic         
+vlan 2     g1         192.168.0.100   88:f0:77:55:f1:7f   dynamic         
+vlan 2     g1         192.168.0.102   20:bb:c0:78:9d:4d   dynamic         
+vlan 2     g1         192.168.0.103   20:bb:c0:78:9a:8d   dynamic         
+vlan 2     g1         192.168.0.104   20:bb:c0:78:9b:b6   dynamic         
+vlan 2     g1         192.168.0.105   20:bb:c0:78:99:d2   dynamic         
+vlan 2     g1         192.168.0.106   58:bc:27:ed:48:ab   dynamic         
+vlan 2     g1         192.168.0.133   e0:46:9a:2f:80:e4   dynamic         
+vlan 2     g1         192.168.0.251   60:e3:27:03:5f:46   dynamic  

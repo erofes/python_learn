@@ -1,0 +1,9 @@
+Only works if there are no space at end - must be super matched to pattern
+
+pattern_mac = re.compile('\w+:\w+:\w+:\w+:\w+:\w+') #take mac from any text
+print(re.fullmatch(pattern_mac, '11:11:22:22:33:333 '))
+=>None
+
+pattern_mac = re.compile('\w+:\w+:\w+:\w+:\w+:\w+') #take mac from any text
+print(re.fullmatch(pattern_mac, '11:11:22:22:33:333'))
+=>Found
