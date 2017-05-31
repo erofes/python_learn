@@ -1,3 +1,7 @@
-from list_package import *
+from CribLibrary.list.list_package import *
 
-print(list_1)
+
+
+print(first)
+first.append(7)
+print(first)
