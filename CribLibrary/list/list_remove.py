@@ -2,6 +2,7 @@ from CribLibrary.list.list_package import *
 
 print(first)
 #[1, 2, 3, 4, 5]
-first.append(7) #add element
+#first.remove(6) #ValueError - not exists
+first.remove(1)
 print(first)
-#[1, 2, 3, 4, 5, 7]
+#[2, 3, 4, 5]

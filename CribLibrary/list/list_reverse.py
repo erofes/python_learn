@@ -1,7 +1,7 @@
 from CribLibrary.list.list_package import *
 
-print(first)
+print(first) #Reverse
 #[1, 2, 3, 4, 5]
-first.append(7) #add element
+first.reverse()
 print(first)
-#[1, 2, 3, 4, 5, 7]
+#[5, 4, 3, 2, 1]

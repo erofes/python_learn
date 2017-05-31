@@ -1,7 +1,7 @@
 from CribLibrary.list.list_package import *
 
-print(first)
+print(first) #Just clear
 #[1, 2, 3, 4, 5]
-first.append(7) #add element
+first.clear()
 print(first)
-#[1, 2, 3, 4, 5, 7]
+#[]
