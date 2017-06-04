@@ -49,6 +49,7 @@ my_file2 = open("TestSet2.txt", "r")
 #   2       00:0b:0e:0f:00:ed     g1    dynamic
 #############################################
 pattern = re.compile('\w+:\w+:\w+:\w+:\w+:\w+')
+pattern = re.compile('.+')
 while True:
     data = pattern.findall(my_file1.readline())
     if data == []:
@@ -65,8 +66,18 @@ while True:
 print(a)
 print(b)
 c = a & b
-print("Intersecti:", c) #intersecion
-print("Difference:", b - a, "\n") #difference
+d = a ^ b
+f = a - b
+g = b - a
+#print("Intersecti:", c) #intersecion
+#print("Difference:", b - a, "\n") #difference
 
-for i in c:
+print("Difference1:\n")
+for i in f:
     print(i)
+
+print("Difference2:\n")
+for i in g:
+    print(i)
+
+#print(a & b)
