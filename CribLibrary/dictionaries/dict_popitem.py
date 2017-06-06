@@ -1,0 +1,10 @@
+d = dict(a=1, b=2, c=3, f=4)  # Returns pairs (key, value)
+print(d.popitem(), d.keys())
+# ('f', 4) dict_keys(['c', 'b', 'a'])
+print(d.popitem(), d.keys())
+# ('c', 3) dict_keys(['b', 'a'])
+print(d.popitem(), d.keys())
+# ('b', 2) dict_keys(['a'])
+print(d.popitem(), d.keys())
+# ('a', 1) dict_keys([])
+# print(d.popitem(), d.keys())  # Dictionary is empty. cant popitem
