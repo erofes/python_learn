@@ -6,6 +6,7 @@ print(func(1, 2, 3), func(1, 2), func(a=2, b=3))  # There are ways to use argume
 
 
 def many(*args):  # Must take any number of elements, unnamed tuple
+    '''Custom description: Return input arguments'''
     return args  # it's tuple type
 
 print(many(1, 2, 3, 'abc', func), many(1))
